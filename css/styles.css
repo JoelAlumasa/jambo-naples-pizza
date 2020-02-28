@@ -1,7 +1,7 @@
 .landing {
   background-image: url("../images/pizza3.jpg");
   background-repeat: no-repeat;
-  padding: 450px;
+  padding: 500px;
   background-size: cover
 }
 .logo1 {
@@ -10,16 +10,21 @@
   margin-top: -450px;
 }
 .phrases1 {
-  color:cornflowerblue;
+  color:white;
   margin-top: -400px;
 }
 .headerfirst {
   color:maroon;
   font-size: 100px;
 }
-.headingsecond {
-  color: maroon;
-  margin-top: 600px;
-  margin-left: -400px;
+/* .headingsecond {
+  color:black;
   font-size: 30px;
+} */
+.info {
+  background-image: url("../images/infopizza3.jpg");
+  background-repeat: no-repeat;
+  padding: 300px;
+  background-size: cover;
+  color: white;
 }
