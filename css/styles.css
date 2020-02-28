@@ -1,11 +1,25 @@
 .landing {
   background-image: url("../images/pizza3.jpg");
   background-repeat: no-repeat;
-  padding: 600px;
+  padding: 450px;
   background-size: cover
 }
 .logo1 {
   float: left;
-  margin-left: -500px;
-  margin-top: -600px;
+  margin-left: -350px;
+  margin-top: -450px;
+}
+.phrases1 {
+  color:cornflowerblue;
+  margin-top: -400px;
+}
+.headerfirst {
+  color:maroon;
+  font-size: 100px;
+}
+.headingsecond {
+  color: maroon;
+  margin-top: 600px;
+  margin-left: -400px;
+  font-size: 30px;
 }
