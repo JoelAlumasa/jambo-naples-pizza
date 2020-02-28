@@ -1,0 +1,11 @@
+.landing {
+  background-image: url("../images/pizza3.jpg");
+  background-repeat: no-repeat;
+  padding: 600px;
+  background-size: cover
+}
+.logo1 {
+  float: left;
+  margin-left: -500px;
+  margin-top: -600px;
+}
