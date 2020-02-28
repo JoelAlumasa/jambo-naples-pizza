@@ -28,3 +28,9 @@
   background-size: cover;
   color: white;
 }
+.moreinfo {
+  background-image: url("../images/money2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px;
+}
