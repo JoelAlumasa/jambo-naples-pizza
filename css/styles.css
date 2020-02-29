@@ -34,3 +34,24 @@
   background-size: cover;
   padding: 300px;
 }
+.navbar {
+  background-color: black;
+}
+.contactlanding {
+  background-image: url("../images/pizza10.jpg");
+  background-repeat: no-repeat;
+  padding: 500px;
+  background-size: cover
+}
+.phrases2 {
+  text-align: center;
+  color:white;
+  margin-top: -400px;
+  margin-left: -300px;
+}
+.orderlanding {
+  background-image: url("../images/infopizza5.jpg");
+  background-repeat: no-repeat;
+  padding: 500px;
+  background-size: cover;
+}
