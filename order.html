@@ -18,108 +18,137 @@
         <h1>ORDER NOW!</h1>
         <h3>CUSTOMISE YOUR PIZZA, SO WE CAN DELIVER!</h3>
       </div>
-    <div class = "row">
-      <div class = "col-md-4" id = "crust">
-        <h3>CRUST</h3>
-        <div>
-          <strong>Thin Crust</strong>
+      
+      <div class = "row">
+        <div class = "col-md-4" id = "crust">
+          <h3>CRUST</h3>
+          <div>
+            <strong>Thin Crust</strong>
+          </div>
+          <div>
+            <span>$0.50</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Thick crust</strong>
+          </div>
+          <div>
+            <span>$1.00</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Cheese-filled crust</strong>
+          </div>
+          <div>
+            <span>$1.50</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
         </div>
-        <div>
-          <span>$0.50</span>
-          <button type="button">ADD TO CART</button>
+        <div class="col-md-4" id="pizza-size">
+          <h3>PIZZA SIZE</h3>
+          <div>
+            <strong>Small pizza</strong>
+          </div>
+          <div>
+            <span>$1.50</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Medium pizza</strong>
+          </div>
+          <div>
+            <span>$2.50</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Large pizza</strong>
+          </div>
+          <div>
+            <span>$3.50</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
         </div>
-        <div>
-          <strong>Thick crust</strong>
-        </div>
-        <div>
-          <span>$1.00</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Cheese-filled crust</strong>
-        </div>
-        <div>
-          <span>$1.50</span>
-          <button type="button">ADD TO CART</button>
+        <div class="col-md-4" id="toppings">
+          <h3>TOPPINGS</h3>
+          <div>
+            <strong>Marinated chicken</strong>
+          </div>
+          <div>
+            <span>$0.80</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Grilled beef</strong>
+          </div>
+          <div>
+            <span>$0.80</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Mushrooms</strong>
+          </div>
+          <div>
+            <span>$0.60</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Sweetcorn</strong>
+          </div>
+          <div>
+            <span>$0.40</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Onions</strong>
+          </div>
+          <div>
+            <span>$0.40</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Pesto</strong>
+          </div>
+          <div>
+            <span>$1.00</span>
+            <button class="btn btn-primary" type="button">ADD TO CART</button>
+          </div>
+          <div>
+            <strong>Tapenade</strong>
+          </div>
+          <div>
+            <span>$1.00</span>
+            <button class="btn btn-primary"type="button">ADD TO CART</button>
+          </div>
         </div>
       </div>
-      <div class="col-md-4" id="pizza-size">
-        <h3>PIZZA SIZE</h3>
-        <div>
-          <strong>Small</strong>
+      <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
         </div>
-        <div>
-          <span>$1.50</span>
-          <button type="button">ADD TO CART</button>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <span>Thin Crust</span>
+          </div>
+          <span class="cart-price cart-column">$0.50</span>
+          <div class="cart-item cart-column">
+            <input type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
+          </div>
         </div>
-        <div>
-          <strong>Medium</strong>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <span>Small pizza</span>
+          </div>
+          <span class="cart-price cart-column">$1.50</span>
+          <div class="cart-item cart-column">
+            <input type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
+          </div>
         </div>
-        <div>
-          <span>$2.50</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Large</strong>
-        </div>
-        <div>
-          <span>$3.50</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-      </div>
-      <div class="col-md-4" id="toppings">
-        <h3>TOPPINGS</h3>
-        <div>
-          <strong>Marinated chicken</strong>
-        </div>
-        <div>
-          <span>$0.80</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Grilled beef</strong>
-        </div>
-        <div>
-          <span>$0.80</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Mushrooms</strong>
-        </div>
-        <div>
-          <span>$0.60</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Sweetcorn</strong>
-        </div>
-        <div>
-          <span>$0.40</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Onions</strong>
-        </div>
-        <div>
-          <span>$0.40</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Pesto</strong>
-        </div>
-        <div>
-          <span>$1.00</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-        <div>
-          <strong>Tapenade</strong>
-        </div>
-        <div>
-          <span>$1.00</span>
-          <button type="button">ADD TO CART</button>
-        </div>
-      </div>
-    </div>
+      </section>
     </div>
   </body>
 </html>
