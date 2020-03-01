@@ -67,4 +67,8 @@
 }
 #toppings {
   color: green;
+  font-weight: bold;
+}
+#pizza-size {
+  color: darkmagenta;
 }
