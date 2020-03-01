@@ -2,7 +2,7 @@
   background-image: url("../images/pizza3.jpg");
   background-repeat: no-repeat;
   padding: 500px;
-  background-size: cover
+  background-size: cover;
 }
 .logo1 {
   float: left;
@@ -16,11 +16,16 @@
 .headerfirst {
   color:maroon;
   font-size: 100px;
+  font-weight: bold;
 }
-/* .headingsecond {
-  color:black;
-  font-size: 30px;
-} */
+.headingsecond {
+  color:cornflowerblue;
+  font-weight: bold;
+}
+.headingtender{
+  color: white;
+  font-weight: bold;
+}
 .info {
   background-image: url("../images/infopizza3.jpg");
   background-repeat: no-repeat;
@@ -54,4 +59,9 @@
   background-repeat: no-repeat;
   padding: 500px;
   background-size: cover;
+}
+.phrases3 {
+  text-align: center;
+  color: dodgerblue;
+  margin-top: -400px;
 }
