@@ -1,18 +1,21 @@
 # JAMBO NAPLES PIZZA CAFE
 
-# AUTHOR
+### AUTHOR
 Done by Joel Alumasa - March 2nd 2020
 
-# DESCRIPTION
+### DESCRIPTION
 Was undertaken as a task by moringa school. Is supposed to be a pizza place with options for ordering meals as well as further inquiry. Is essentially a trial-project.
 
-# INSTALLATION INSTRUCTIONS
+### INSTALLATION INSTRUCTIONS
 No special installation instructions needed or any other tedious requirements. 
 
-# TECHNOLOGIES USED
+### TECHNOLOGIES USED
 HTML5 and CSS heavily utilized. Attempt to use JavaScript is also present - but is admittedly subpar. Beginner level features are present.
 
-# LICENSE
+### Link to live site 
+[https://joelalumasa.github.io/jambo-naples-pizza/index.html](link)
+
+### LICENSE
 MIT License
 
 Copyright (c) [2020] [Joel Alumasa]
