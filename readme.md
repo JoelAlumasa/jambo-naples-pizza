@@ -12,7 +12,7 @@ No special installation instructions needed or any other tedious requirements.
 ### TECHNOLOGIES USED
 HTML5 and CSS heavily utilized. Attempt to use JavaScript is also present - but is admittedly subpar. Beginner level features are present.
 
-### Link to live site 
+### Link to page 
 https://joelalumasa.github.io/jambo-naples-pizza/index.html
 
 ### LICENSE
